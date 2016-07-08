@@ -16,3 +16,13 @@ en:
       profile: "Profile"
       account_setting: "Setting"
       logout: "Logout"
+  admin:
+    leagues:
+      new:
+        create: "Create"
+    countries:
+      new:
+        add: "Add"
+      create:
+        failed: "This country already exist"
+        success: "Added successfully"

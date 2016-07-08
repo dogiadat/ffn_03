@@ -1,0 +1,14 @@
+<table class="table" style="width: 50%">
+  <thead>
+    <th>League</th>
+    <th>Action</th>
+  </thead>
+  <tbody>
+    <% @leagues.each do |league| %>
+      <li class="list-group-item">
+        <%= league.name %>
+        <%= league.country.name %>
+      </li>
+    <% end %>
+  </tbody>
+</table>
