@@ -27,7 +27,7 @@ gem "ransack"
 gem "bcrypt"
 gem "jquery-turbolinks"
 gem "whenever"
-gem "sinatra"
+gem "sinatra", require: false
 gem "delayed_job_active_record"
 gem "daemons"
 gem "public_activity"

@@ -13,6 +13,8 @@ class User < ActiveRecord::Base
   validates :name, presence: true, length: {maximum: 50}
   validate :image_size
 
+  scope :admin, ->{where role: User.roles[:admin]}
+
   private
   def image_size
     if avatar.size > Settings.image.max_capacity.megabytes
