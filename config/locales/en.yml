@@ -37,6 +37,10 @@ en:
       profile: "Profile"
       account_setting: "Setting"
       logout: "Logout"
+  countries:
+    index:
+      content: "Enter name or code.."
+      select_country: "Select country"
   admin:
     verify_admin: "You are not authorized to access this page"
     users:
@@ -115,6 +119,9 @@ en:
         delete_tip: "Delete this news type"
         confirm_delete: "Do you really want to delete this news type?"
     countries:
+      index:
+        content: "Enter name or code.."
+        select_country: "Select country"
       new:
         add: "Add"
       create:
